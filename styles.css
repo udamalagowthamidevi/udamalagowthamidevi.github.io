@@ -1,0 +1,74 @@
+h2{
+    padding:15px;
+    margin:5px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(203, 160, 104);
+    background-color:brown;
+    border-radius: 20px;
+    font-family:monospace;
+    font-weight: bolder;
+}
+.todoBox{
+    width:90%;
+    height:auto;
+    background-color:rgb(203, 160, 104);
+    margin:auto;
+    justify-content: center;
+    display: flex;
+}
+.innerTodo{
+    width:90%;
+    background-color: antiquewhite;
+    justify-content: center;
+    width:auto;
+    padding:10px;
+    margin:10px;
+}
+li{
+    display:flex;
+    align-items: baseline;
+    font-size: medium;
+    font-family:monospace;
+}
+p{
+    display: flex;
+    font-size: large;
+}
+.checked{
+    font-weight: lighter;
+    opacity: 0.4;
+}
+.sideButton{
+    height:min-content;
+    border-radius: 50%;
+    margin-right: 2vw;
+    margin-left: auto;
+    
+}
+#submenu{
+    font-size: xx-small;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+}
+#submenu p{
+    font-size: x-small;
+    color:brown;
+    margin:5px;
+   
+    
+}
+#footer{
+    display:flex;
+    justify-content: space-between;
+    
+}
+#footer p{
+    display:flex;
+    font-size: x-small;
+    color:brown;
+}
+#footer div{
+    display: flex;
+}
